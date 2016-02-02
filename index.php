@@ -7,6 +7,9 @@
   <body>
     <h1>HTML Lib demo</h1>
     <p>
+      foo
+    </p>
+    <p>
       Welcome to my html-lib.
     </p>
   </body>
