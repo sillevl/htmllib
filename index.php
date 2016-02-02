@@ -7,9 +7,6 @@
   <body>
     <h1>HTML Lib demo</h1>
     <p>
-      foo
-    </p>
-    <p>
       Welcome to my html-lib.
     </p>
     <button type="button" name="button">Login</button>
