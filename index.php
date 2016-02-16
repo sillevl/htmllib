@@ -1,6 +1,7 @@
 <?php
-  require_once('lib/h1.php');
-  require_once('lib/h2.php');
+  require_once('lib/H1.php');
+  require_once('lib/H2.php');
+  require_once('lib/P.php');
  ?>
 
 <!DOCTYPE html>
@@ -11,14 +12,10 @@
   </head>
   <body>
     <?php
-      $title = new H1("HTML Lib demo");
-      echo $title;
-
+      echo new H1("HTML Lib demo");
       echo new H2("Welcome");
+      echo new P('Welcome to my html-lib.');
     ?>
-    <p>
-      Welcome to my html-lib.
-    </p>
     <button type="button" name="button">Test</button>
   </body>
 </html>
