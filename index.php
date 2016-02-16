@@ -9,6 +9,6 @@
     <p>
       Welcome to my html-lib.
     </p>
-    <button type="button" name="knop">Test</button>
+    <button type="button" name="button">Test</button>
   </body>
 </html>
