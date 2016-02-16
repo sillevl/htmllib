@@ -1,12 +1,12 @@
 <?php
 
-require_once("h1.php");
+require_once("Element.php");
 
-class H2 extends H1
+class H2 extends Element
 {
   public function __construct($content)
   {
-    $this->content = $content;
+    parent::__construct($content);
     $this->tag = "h2";
   }
 }

@@ -1,17 +1,12 @@
 <?php
 
-class H1
-{
-  protected $content = '';
-  protected $tag = 'h1';
+require_once("Element.php");
 
+class H1 extends Element
+{
   public function __construct($content)
   {
-    $this->content = $content;
-  }
-
-  public function __toString()
-  {
-    return "<$this->tag>$this->content</$this->tag>";
+    parent::__construct($content);
+    $this->tag = "h1";
   }
 }
