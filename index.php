@@ -5,7 +5,7 @@
   require_once('lib/Div.php');
   require_once('lib/Button.php');
   require_once('lib/Nav.php');
-
+  require_once('lib/Section.php');
  ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@
       echo new Div(new P('Hello world.'));
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
       echo new Nav(new P('Ik ben een nav element!'));
-
+      echo new Section(new P("I am a section !!! wheee"));
     ?>
   </body>
 </html>
