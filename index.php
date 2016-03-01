@@ -4,6 +4,7 @@
   require_once('lib/P.php');
   require_once('lib/Div.php');
   require_once('lib/Button.php');
+  require_once('lib/header.php');
  ?>
 
 <!DOCTYPE html>
@@ -14,6 +15,7 @@
   </head>
   <body>
     <?php
+      echo new Header(new P('Wauw, wat een prachtig voorbeeld van een header, wauw. Goed gewerkt Milan Lamote!'));
       echo new H1("HTML Lib demo");
       echo new H2("Welcome");
       echo new P('Welcome to my html-lib.');
