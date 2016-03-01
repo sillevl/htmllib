@@ -3,6 +3,7 @@
   require_once('lib/H2.php');
   require_once('lib/P.php');
   require_once('lib/Div.php');
+  require_once('lib/Button.php');
  ?>
 
 <!DOCTYPE html>
@@ -18,12 +19,9 @@
       echo new P('Welcome to my html-lib.');
 
       echo new Div(new P('Hello world.'));
+
+      echo new Button('Test', ["type"=>"button", "name"=>"button"]);
     ?>
-    <div>
-      <p>
-        Hello world.
-      </p>
-    </div>
     <button type="button" name="button">Test</button>
   </body>
 </html>
