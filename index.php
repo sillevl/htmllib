@@ -7,6 +7,7 @@
   require_once('lib/header.php');
   require_once('lib/Nav.php');
   require_once('lib/Section.php');
+  require_once('lib/LoginForm.php');
  ?>
 
 <!DOCTYPE html>
@@ -25,6 +26,12 @@
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
+
+      echo new LoginForm("Log me in:", [
+        ["name" => "username", "type" => "text"],
+        ["name" => "password", "type" => "password"],
+        ["name" => "submit", "type" => "submit"]
+      ]);
     ?>
   </body>
 </html>
