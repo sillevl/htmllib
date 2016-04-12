@@ -4,8 +4,6 @@ namespace sillevl\htmllib;
 
 use sillevl\htmllib\VoidElement;
 
-include_once("VoidElement.php");
-
 class Input extends VoidElement{
 
   private $name;

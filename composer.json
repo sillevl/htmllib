@@ -6,5 +6,8 @@
             "email": "info@sillevl.be"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"sillevl\\htmllib\\": "lib/"}
+    }
 }

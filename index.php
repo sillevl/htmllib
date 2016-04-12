@@ -1,15 +1,8 @@
 <?php
-  require_once('lib/H1.php');
-  require_once('lib/H2.php');
-  require_once('lib/P.php');
-  require_once('lib/Div.php');
-  require_once('lib/Button.php');
-  require_once('lib/header.php');
-  require_once('lib/Nav.php');
-  require_once('lib/Section.php');
-  require_once('lib/LoginForm.php');
+    require __DIR__ . '/vendor/autoload.php';
 
-  use sillevl\htmllib\{H1,H2,P,Div,Button,header,Nav,Section,LoginForm};
+
+  use sillevl\htmllib\{H1,H2,P,Div,Button,Header,Nav,Section,LoginForm};
  ?>
 
 <!DOCTYPE html>

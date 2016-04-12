@@ -4,8 +4,6 @@ namespace sillevl\htmllib;
 
 use sillevl\htmllib\Element;
 
-include_once("Element.php");
-
 class VoidElement extends Element{
 
     public function __construct($properties = array())

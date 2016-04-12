@@ -4,8 +4,6 @@ namespace sillevl\htmllib;
 
 use sillevl\htmllib\Element;
 
-require_once("Element.php");
-
 
 // this is a comment, dag wereld
 
