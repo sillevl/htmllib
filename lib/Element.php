@@ -1,5 +1,7 @@
 <?php
 
+namespace sillevl\htmllib;
+
 class Element
 {
   protected $content = '';

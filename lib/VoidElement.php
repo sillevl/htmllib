@@ -1,5 +1,9 @@
 <?php
 
+namespace sillevl\htmllib;
+
+use sillevl\htmllib\Element;
+
 include_once("Element.php");
 
 class VoidElement extends Element{

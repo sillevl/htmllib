@@ -1,5 +1,9 @@
 <?php
 
+namespace sillevl\htmllib;
+
+use sillevl\htmllib\{H2,Input,Form};
+
 include_once("H2.php");
 include_once("Input.php");
 include_once("Form.php");

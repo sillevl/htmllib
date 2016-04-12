@@ -1,5 +1,9 @@
 <?php
 
+namespace sillevl\htmllib;
+
+use sillevl\htmllib\Element;
+
 require_once("Element.php");
 
 class H2 extends Element

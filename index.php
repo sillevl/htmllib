@@ -8,6 +8,8 @@
   require_once('lib/Nav.php');
   require_once('lib/Section.php');
   require_once('lib/LoginForm.php');
+
+  use sillevl\htmllib\{H1,H2,P,Div,Button,header,Nav,Section,LoginForm};
  ?>
 
 <!DOCTYPE html>
