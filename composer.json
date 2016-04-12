@@ -1,0 +1,10 @@
+{
+    "name": "sillevl/demo-app",
+    "authors": [
+        {
+            "name": "Sille Van Landschoot",
+            "email": "info@sillevl.be"
+        }
+    ],
+    "require": {}
+}
