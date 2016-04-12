@@ -9,5 +9,6 @@
     "require": {},
     "autoload": {
         "psr-4": {"sillevl\\htmllib\\": "lib/"}
-    }
+    },
+    "minimum-stability": "stable"
 }
